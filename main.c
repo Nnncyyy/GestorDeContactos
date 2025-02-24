@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /*Programa que simula una agenda digital de 100 contactos*/
+
 struct agenda
 {
     char nombre[50];
@@ -9,9 +10,10 @@ struct agenda
     int id;
 };
 
-//Prototipos de funciones.
-void ingresarContacto(int, struct agenda contacto[100]);
 
+//Prototipos de funciones.
+
+int buscarID(char[30], struct agenda contacto[100]);
 
 int main() {
     struct agenda contacto[100];
@@ -23,7 +25,8 @@ int main() {
     do
     {
         printf("MENU: \n");
-        printf("1. Agregar contacto  \n");
+        ///printf("1. Agregar contacto  \n");
+        printf("2. Mostrar contacto  \n");
         
         printf("0. Salir \n");
         printf("Seleccione una opcion\n");
@@ -31,23 +34,28 @@ int main() {
 
         switch (op)
         {
-        case 1:
+        
+        
+        case 2:
+             __fpurge(stdin);
+            printf("2. Mostrar contacto. \n");
+            printf("Ingrese el nombre del contacto que desea imprimir: \n");
+            scanf("%[^\n]",buscar_nombre);
             __fpurge(stdin);
-            printf("1. Nuevo contacto. \n");
 
-            if (num_contacto<100){
-                printf("Ingrese la informacion solicitada: \n");
-
-                ingresarContacto(num_contacto,contacto);
-
-                printf("Contacto agregado con exito.\n");
-                contacto[num_contacto].id = num_contacto;
-                num_contacto++;
-            } else {
-                printf("La agenda está llena.\n");
+            id_encontrado = buscarID(buscar_nombre,contacto);
+    
+            if (id_encontrado != 200){
+                printf("Contacto encontrado: \n");
+                informacionContacto(id_encontrado, contacto);
+                printf("ID:%d \n",id_encontrado);
+            } else if (id_encontrado == 200) {
+                printf("Contacto NO encontrado. \n");
             }
             
             break;
+        
+        
         
         case 0:
         
@@ -68,15 +76,34 @@ int main() {
 
 // Definición de funciones.
 // Función que solicita la infomación de un nuevo contacto.
-void ingresarContacto(int num_contacto, struct agenda contacto[100]){
-    printf("Nombre: \n");
-    scanf("%[^\n]",contacto[num_contacto].nombre);
-    __fpurge(stdin);
-    printf("Numero movil: \n");
-    scanf("%[^\n]",contacto[num_contacto].num_movil);
-    __fpurge(stdin);
-    printf("Email: \n");
-    scanf("%[^\n]",contacto[num_contacto].email);
-    __fpurge(stdin);
 
+
+// Función para buscar la ID de un contacto.
+int buscarID(char buscar_nombre[30], struct agenda contacto[100]){
+    int i=0, j, k=0, buscar_id;
+    do{
+        for (j = 0; buscar_nombre[j] != '\0'; j++){
+            if (contacto[i].nombre[j] == buscar_nombre[j]){
+                buscar_id = i;
+            } else {
+                i++;
+            }
+            k++;
+        }
+    } while (k <= 100);
+
+    if (i >= 100){
+        buscar_id = 200;
+        return buscar_id;
+    } else {
+        return buscar_id;
+    }
 }
+
+// Función para imprimir la información del contacto.
+void informacionContacto(int id_encontrado, struct agenda contacto[100]){
+    printf("Nombre: %s \n",contacto[id_encontrado].nombre);
+    printf("Numero movil: %s \n",contacto[id_encontrado].num_movil);
+    printf("Email: %s \n",contacto[id_encontrado].email);
+}
+
