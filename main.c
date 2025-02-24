@@ -9,9 +9,9 @@ struct agenda
     int id;
 };
 
-//Prototipos de funciones.
+//Prototipos de funciones
 int buscarID(char[30], struct agenda contacto[100]);
-void informacionContacto(int, struct agenda contacto[100]);
+void eliminarContacto(int, struct agenda contacto[100]);
 
 int main() {
     struct agenda contacto[100];
@@ -25,37 +25,34 @@ int main() {
         printf("MENU: \n");
         //printf("1. Agregar contacto  \n");
         //printf("2. Mostrar contacto  \n");
-        printf("3. Buscar contacto   \n");
-        
+        //printf("3. Buscar contacto   \n");
+        printf("4. Eliminar contacto \n");
         printf("0. Salir \n");
         printf("Seleccione una opcion\n");
         scanf("%d",&op);
 
         switch (op)
         {
-        
-        case 3:
+
+        case 4:
             __fpurge(stdin);
-            printf("3. Buscar contacto. \n");
-            printf("Ingrese el nombre del contacto que desea buscar: \n");
+            printf("5. Eliminar contacto. \n");
+            printf("Ingrese el nombre del contacto que desea eliminar: \n");
             scanf("%[^\n]",buscar_nombre);
             __fpurge(stdin);
 
             id_encontrado = buscarID(buscar_nombre,contacto);
     
             if (id_encontrado != 200){
-                printf("Contacto encontrado: \n");
-                informacionContacto(id_encontrado, contacto);
-                printf("ID:%d \n",id_encontrado);
+                eliminarContacto(id_encontrado, contacto);
+                printf("Contacto elimanado con exito. \n");
             } else if (id_encontrado == 200) {
                 printf("Contacto NO encontrado. \n");
             }
             break;
         
         case 0:
-        
             printf("Saliendo.... \n");
-            
             break;
             
         default: 
@@ -70,7 +67,6 @@ int main() {
 }
 
 // Definición de funciones.
-
 
 // Función para buscar la ID de un contacto.
 int buscarID(char buscar_nombre[30], struct agenda contacto[100]){
@@ -94,10 +90,11 @@ int buscarID(char buscar_nombre[30], struct agenda contacto[100]){
     }
 }
 
-// Función para imprimir la información del contacto.
-void informacionContacto(int id_encontrado, struct agenda contacto[100]){
-    printf("Nombre: %s \n",contacto[id_encontrado].nombre);
-    printf("Numero movil: %s \n",contacto[id_encontrado].num_movil);
-    printf("Email: %s \n",contacto[id_encontrado].email);
+// Función para "eliminar" un contacto.
+void eliminarContacto(int id_encontrado, struct agenda contacto[100]){
+    contacto[id_encontrado].nombre[0] = ' ';
+    contacto[id_encontrado].nombre[1] = ' ';
+    contacto[id_encontrado].num_movil[15] = ' ';
+    contacto[id_encontrado].email[50] = ' ';
+    contacto[id_encontrado].id = 300;
 }
-
