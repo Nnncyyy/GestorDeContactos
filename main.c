@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*Programa que simula una agenda digital de 100 contactos*/
-
 struct agenda
 {
     char nombre[50];
@@ -10,10 +9,9 @@ struct agenda
     int id;
 };
 
-
 //Prototipos de funciones.
-
 int buscarID(char[30], struct agenda contacto[100]);
+void informacionContacto(int, struct agenda contacto[100]);
 
 int main() {
     struct agenda contacto[100];
@@ -25,8 +23,9 @@ int main() {
     do
     {
         printf("MENU: \n");
-        ///printf("1. Agregar contacto  \n");
-        printf("2. Mostrar contacto  \n");
+        //printf("1. Agregar contacto  \n");
+        //printf("2. Mostrar contacto  \n");
+        printf("3. Buscar contacto   \n");
         
         printf("0. Salir \n");
         printf("Seleccione una opcion\n");
@@ -35,11 +34,10 @@ int main() {
         switch (op)
         {
         
-        
-        case 2:
-             __fpurge(stdin);
-            printf("2. Mostrar contacto. \n");
-            printf("Ingrese el nombre del contacto que desea imprimir: \n");
+        case 3:
+            __fpurge(stdin);
+            printf("3. Buscar contacto. \n");
+            printf("Ingrese el nombre del contacto que desea buscar: \n");
             scanf("%[^\n]",buscar_nombre);
             __fpurge(stdin);
 
@@ -52,10 +50,7 @@ int main() {
             } else if (id_encontrado == 200) {
                 printf("Contacto NO encontrado. \n");
             }
-            
             break;
-        
-        
         
         case 0:
         
@@ -75,7 +70,6 @@ int main() {
 }
 
 // Definición de funciones.
-// Función que solicita la infomación de un nuevo contacto.
 
 
 // Función para buscar la ID de un contacto.
