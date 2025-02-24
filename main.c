@@ -14,6 +14,7 @@ struct agenda
 //Prototipos de funciones.
 
 int buscarID(char[30], struct agenda contacto[100]);
+void informacionContacto(int, struct agenda contacto[100]);
 
 int main() {
     struct agenda contacto[100];
