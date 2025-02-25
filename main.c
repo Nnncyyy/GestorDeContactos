@@ -200,6 +200,7 @@ void informacionContacto(int id_encontrado, struct agenda contacto[100]){
 // Función para "eliminar" un contacto.
 void eliminarContacto(int id_encontrado, struct agenda contacto[100]){
     contacto[id_encontrado].nombre[0] = '\0';
+    contacto[id_encontrado].nombre[1] = '\0';
     contacto[id_encontrado].telefono[15] = '\0';
     contacto[id_encontrado].email[50] = '\0';
     contacto[id_encontrado].id = 200;
