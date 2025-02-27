@@ -48,7 +48,7 @@ Caso de uso:
 5. El programa confirma que el contacto ha sido agregado con éxito.
 6. El menú aparece nuevamente y el usuario sigue agregando otro contacto.
 
-<br><img src="./capturas/1.png" alt="Agregar primer contacto" width="300" /><br> 
+<img src="./capturas/1.png" alt="Agregar primer contacto" width="300" /><br> 
 ► Agregando un segundo y tercer contacto. <br>
 
 <img src="./capturas/2.png" alt="Agregar primer contacto" width="300" /><br>
@@ -63,15 +63,19 @@ Caso de uso:
 
 <br><img src="./capturas/5.png" alt="Agregar primer contacto" width="300" /><br>
 11. El menú se muestra nuevamente y el usuario selecciona la opción 2 (Mostrar contacto). <br>
+
 <br><img src="./capturas/6.png" alt="Agregar primer contacto" width="300" /><br>
 12. Se ejecuta la opción 3 (Buscar contactos).<br>
 13. El menú aparece nuevamente y el usuario selecciona la opción 4 (Eliminar contacto). <br>
 14. Se confirma la eliminación del contacto. <br>
+
 <br><img src="./capturas/7.png" alt="Agregar primer contacto" width="300" /><br>
 15. Para veficicar la elimicaión del contacto se ejecuta la opción 3 (Buscar contacto). <br>
 16. El programa no encontró al contacto, es decir, el contacto fue eliminado exitosamente. <br>
+
 <br><img src="./capturas/8.png" alt="Agregar primer contacto" width="300" /><br>
-17. El usuario seleciona la opción 6 (Cargar contactos desde un archivo)<br>
+17. El usuario seleciona la opción 6 (Cargar contactos desde un archivo).<br>
+
 <br><img src="./capturas/9.png" alt="Agregar primer contacto" width="300" />
 <br>Agregando :<br>
 <img src="./capturas/10.png" alt="Agregar primer contacto" width="300" />
