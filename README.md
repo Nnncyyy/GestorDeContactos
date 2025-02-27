@@ -51,7 +51,7 @@ Caso de uso:
 <img src="./capturas/1.png" alt="Agregar primer contacto" width="300" /><br>
 
 ► Agregando un segundo y tercer contacto. 
-<img src="./capturas/2.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/2.png" alt="Agregar primer contacto" width="300" /><br>
 
 ► Agregando un cuarto y quinto contacto.  
 <img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
