@@ -47,17 +47,17 @@ Caso de uso:
 4. El usuario ingresa la información solicitada.
 5. El programa confirma que el contacto ha sido agregado con éxito.
 6. El menú aparece nuevamente y el usuario sigue agregando otro contacto.
-7. El usuario guardo un total de 5 contactos.
-8. Se ejecuta la opción 5 (Guardar contactos).
-9. Los contastos se guerdan en un archivo de texto.
+
 <img src="./capturas/1.png" alt="Agregar primer contacto" width="300" />
 <br>Agregando un segundo y tercer contacto:<br>
 <img src="./capturas/2.png" alt="Agregar primer contacto" width="300" />
 <br>Agregando un cuarto y quinto contacto:<br>
-<img src="./capturas/3.png" alt="Agregar primer contacto" width="300" />
-<br>Agregando :<br>
+<img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
+7. El usuario guardo un total de 5 contactos.
+8. Se ejecuta la opción 5 (Guardar contactos).
+<br>
 <img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /> 
-<br>Agregando:<br>
+<br>9. Los contastos se guerdan en un archivo de texto.<br>
 <img src="./capturas/5.png" alt="Agregar primer contacto" width="300" />
 <br>Agregando :<br>
 <img src="./capturas/6.png" alt="Agregar primer contacto" width="300" />
