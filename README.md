@@ -50,13 +50,17 @@ Caso de uso:
 
 <br><img src="./capturas/1.png" alt="Agregar primer contacto" width="300" /><br> 
 ► Agregando un segundo y tercer contacto. <br>
+
 <img src="./capturas/2.png" alt="Agregar primer contacto" width="300" /><br>
 ► Agregando un cuarto y quinto contacto.  <br>
+
 <br><img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
 8. El usuario guardo un total de 5 contactos.  <br>
 9. Se ejecuta la opción 5 (Guardar contactos). <br>
+
 <br><img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /><br> 
 10. Los contastos se guardan en un archivo de texto. <br>
+
 <br><img src="./capturas/5.png" alt="Agregar primer contacto" width="300" /><br>
 11. El menú se muestra nuevamente y el usuario selecciona la opción 2 (Mostrar contacto). <br>
 <br><img src="./capturas/6.png" alt="Agregar primer contacto" width="300" /><br>
