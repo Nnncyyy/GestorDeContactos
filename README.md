@@ -46,7 +46,7 @@ Ejecución de la operación 1:<br>
 <br>Agregando un cuarto y quinto contacto:<br>
 <img src="./capturas/3.png" alt="Agregar primer contacto" width="300" />
 <br>Agregando :<br>
-<img src="./capturas/4.png" alt="Agregar primer contacto" width="300" 
+<img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /> 
 <br>Agregando:<br>
 <img src="./capturas/5.png" alt="Agregar primer contacto" width="300" />
 <br>Agregando :<br>
