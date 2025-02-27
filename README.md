@@ -39,11 +39,14 @@ Esta práctica requiere de conocimientos previos
 - Se establecieron fechas límite para cada funcionalidad del programa.
 
 ### Capturas de Pantalla
+![image](https://github.com/user-attachments/assets/0071d98d-81cd-42d5-a711-87855db9bfa0)
 
 
 ### Enlaces Relacionados
 - Repositorio en GitHub
+  [Github](https://github.com/Nnncyyy/GestorDeContactos)
 - Tablero en Microsoft Planner
+  [Gestor Plannner - Microsoft](https://planner.cloud.microsoft/webui/plan/f4uoSnfRFEG39JeEiVf0i2QADA3c/view/grid?tid=f94bf4d9-8097-4794-adf6-a5466ca28563)
 
 
 
