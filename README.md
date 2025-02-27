@@ -39,8 +39,28 @@ Esta práctica requiere de conocimientos previos
 - Se establecieron fechas límite para cada funcionalidad del programa.
 
 ### Capturas de Pantalla
-![image](https://github.com/user-attachments/assets/0071d98d-81cd-42d5-a711-87855db9bfa0)
-
+Ejecución de la operación 1:<br>
+<img src="./capturas/1.png" alt="Agregar primer contacto" width="300" />
+<br>Agregando un segundo y tercer contacto:<br>
+<img src="./capturas/2.png" alt="Agregar primer contacto" width="300" />
+<br>Agregando un cuarto y quinto contacto:<br>
+<img src="./capturas/3.png" alt="Agregar primer contacto" width="300" />
+<br>Agregando :<br>
+<img src="./capturas/4.png" alt="Agregar primer contacto" width="300" 
+<br>Agregando:<br>
+<img src="./capturas/5.png" alt="Agregar primer contacto" width="300" />
+<br>Agregando :<br>
+<img src="./capturas/6.png" alt="Agregar primer contacto" width="300" />
+<br>Agregando :<br>
+<img src="./capturas/7.png" alt="Agregar primer contacto" width="300" />
+<br>Agregando :<br>
+<img src="./capturas/8.png" alt="Agregar primer contacto" width="300" />
+<br>Agregando :<br>
+<img src="./capturas/9.png" alt="Agregar primer contacto" width="300" />
+<br>Agregando :<br>
+<img src="./capturas/10.png" alt="Agregar primer contacto" width="300" />
+<br>Agregando :<br>
+<img src="./capturas/11.png" alt="Agregar primer contacto" width="300" />
 
 ### Enlaces Relacionados
 - Repositorio en GitHub
