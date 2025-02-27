@@ -47,6 +47,7 @@ Caso de uso:
 4. El usuario ingresa la información solicitada.
 5. El programa confirma que el contacto ha sido agregado con éxito.
 6. El menú aparece nuevamente y el usuario sigue agregando otro contacto.
+   
 <img src="./capturas/1.png" alt="Agregar primer contacto" width="300" /><br>
 
 ► Agregando un segundo y tercer contacto. <br>
