@@ -69,14 +69,14 @@ Caso de uso:
 12. Se ejecuta la opción 3 (Buscar contactos).
 13. El menú aparece nuevamente y el usuario selecciona la opción 4 (Eliminar contacto). <br>
 14. Se confirma la eliminación del contacto. 
-<img src="./capturas/7.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/7.png" alt="Agregar primer contacto" width="300" /><br>
 
 15. Para veficicar la elimicaión del contacto se ejecuta la opción 3 (Buscar contacto).
 16. El programa no encontró al contacto, es decir, el contacto fue eliminado exitosamente. 
-<img src="./capturas/8.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/8.png" alt="Agregar primer contacto" width="300" /><br>
 
 17. El usuario seleciona la opción 6 (Cargar contactos desde un archivo).<br>
-<img src="./capturas/9.png" alt="Agregar primer contacto" width="300" />
+<br><img src="./capturas/9.png" alt="Agregar primer contacto" width="300" />
 
 <br>Agregando :<br>
 <img src="./capturas/10.png" alt="Agregar primer contacto" width="300" />
