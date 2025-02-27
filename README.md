@@ -51,14 +51,14 @@ Caso de uso:
 <img src="./capturas/1.png" alt="Agregar primer contacto" width="300" /><br>
 
 ► Agregando un segundo y tercer contacto. 
-<br><img src="./capturas/2.png" alt="Agregar primer contacto" width="300" /><br>
+<img src="./capturas/2.png" alt="Agregar primer contacto" width="300" /><br>
 
 ► Agregando un cuarto y quinto contacto.  
-<br><img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
+<img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
 
 8. El usuario guardo un total de 5 contactos. 
 9. Se ejecuta la opción 5 (Guardar contactos). 
-<br><img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /><br> 
+<img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /><br> 
 
 10. Los contastos se guardan en un archivo de texto. <br>
 <img src="./capturas/5.png" alt="Agregar primer contacto" width="300" /><br>
