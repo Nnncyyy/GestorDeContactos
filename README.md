@@ -46,11 +46,12 @@ Caso de uso:
 3. El programa solicita los datos del contacto.
 4. El usuario ingresa la información solicitada.
 5. El programa confirma que el contacto ha sido agregado con éxito.
-6. El menú aparece nuevamente y el usuario sigue agregando otro contacto. <br>
-<img src="./capturas/1.png" alt="Agregar primer contacto" width="300" /><br> 
-Agregando un segundo y tercer contacto. <br>
+6. El menú aparece nuevamente y el usuario sigue agregando otro contacto.
+
+<br><img src="./capturas/1.png" alt="Agregar primer contacto" width="300" /><br> 
+► Agregando un segundo y tercer contacto. <br>
 <img src="./capturas/2.png" alt="Agregar primer contacto" width="300" /><br>
-Agregando un cuarto y quinto contacto.  <br>
+► Agregando un cuarto y quinto contacto.  <br>
 <img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
 8. El usuario guardo un total de 5 contactos.  <br>
 9. Se ejecuta la opción 5 (Guardar contactos). <br>
