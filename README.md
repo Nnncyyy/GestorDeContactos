@@ -52,23 +52,23 @@ Caso de uso:
 ► Agregando un segundo y tercer contacto. <br>
 <img src="./capturas/2.png" alt="Agregar primer contacto" width="300" /><br>
 ► Agregando un cuarto y quinto contacto.  <br>
-<img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
 8. El usuario guardo un total de 5 contactos.  <br>
 9. Se ejecuta la opción 5 (Guardar contactos). <br>
-<img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /><br> 
+<br><img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /><br> 
 10. Los contastos se guardan en un archivo de texto. <br>
-<img src="./capturas/5.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/5.png" alt="Agregar primer contacto" width="300" /><br>
 11. El menú se muestra nuevamente y el usuario selecciona la opción 2 (Mostrar contacto). <br>
-<img src="./capturas/6.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/6.png" alt="Agregar primer contacto" width="300" /><br>
 12. Se ejecuta la opción 3 (Buscar contactos).<br>
 13. El menú aparece nuevamente y el usuario selecciona la opción 4 (Eliminar contacto). <br>
 14. Se confirma la eliminación del contacto. <br>
-<img src="./capturas/7.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/7.png" alt="Agregar primer contacto" width="300" /><br>
 15. Para veficicar la elimicaión del contacto se ejecuta la opción 3 (Buscar contacto). <br>
 16. El programa no encontró al contacto, es decir, el contacto fue eliminado exitosamente. <br>
-<img src="./capturas/8.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/8.png" alt="Agregar primer contacto" width="300" /><br>
 17. El usuario seleciona la opción 6 (Cargar contactos desde un archivo)<br>
-<img src="./capturas/9.png" alt="Agregar primer contacto" width="300" />
+<br><img src="./capturas/9.png" alt="Agregar primer contacto" width="300" />
 <br>Agregando :<br>
 <img src="./capturas/10.png" alt="Agregar primer contacto" width="300" />
 <br>Agregando :<br>
