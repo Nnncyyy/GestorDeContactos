@@ -54,17 +54,17 @@ Caso de uso:
 <br><img src="./capturas/2.png" alt="Agregar primer contacto" width="300" /><br>
 
 ► Agregando un cuarto y quinto contacto.  
-<img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/3.png" alt="Agregar primer contacto" width="300" /><br>
 
 8. El usuario guardo un total de 5 contactos. 
 9. Se ejecuta la opción 5 (Guardar contactos). 
-<img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /><br> 
+<br><img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /><br> 
 
 10. Los contastos se guardan en un archivo de texto. <br>
-<img src="./capturas/5.png" alt="Agregar primer contacto" width="300" /><br>
+<br> <img src="./capturas/5.png" alt="Agregar primer contacto" width="300" /><br>
 
 11. El menú se muestra nuevamente y el usuario selecciona la opción 2 (Mostrar contacto). <br>
-<img src="./capturas/6.png" alt="Agregar primer contacto" width="300" /><br>
+<br> <img src="./capturas/6.png" alt="Agregar primer contacto" width="300" /><br>
 
 12. Se ejecuta la opción 3 (Buscar contactos).<br>
 13. El menú aparece nuevamente y el usuario selecciona la opción 4 (Eliminar contacto). <br>
