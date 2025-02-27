@@ -39,7 +39,17 @@ Esta práctica requiere de conocimientos previos
 - Se establecieron fechas límite para cada funcionalidad del programa.
 
 ### Capturas de Pantalla
-Ejecución de la operación 1:<br>
+Caso de uso:
+
+1. Se muestra el menú principal, donde el usuario tiene varias opciones.
+2. El usuario selecciona la opción 1 (Agregar contacto).
+3. El programa solicita los datos del contacto.
+4. El usuario ingresa la información solicitada.
+5. El programa confirma que el contacto ha sido agregado con éxito.
+6. El menú aparece nuevamente y el usuario sigue agregando otro contacto.
+7. El usuario guardo un total de 5 contactos.
+8. Se ejecuta la opción 5 (Guardar contactos).
+9. Los contastos se guerdan en un archivo de texto.
 <img src="./capturas/1.png" alt="Agregar primer contacto" width="300" />
 <br>Agregando un segundo y tercer contacto:<br>
 <img src="./capturas/2.png" alt="Agregar primer contacto" width="300" />
