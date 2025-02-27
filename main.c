@@ -25,19 +25,8 @@ int main() {
     char cargar_archivo;
     char nombreArchivo[100];
 
-    printf("Agenda Digital de 100 contactos. \n");
+    printf("------------ Agenda Digital de 100 contactos ------------ \n");
 
-    // Preguntar al usuario si desea cargar los contactos desde un archivo
-    printf("¿Desea cargar los contactos desde un archivo? (s/n): ");
-    scanf(" %c", &cargar_archivo);
-    fflush(stdin);
-    if (cargar_archivo == 's' || cargar_archivo == 'S') {
-        printf("Ingrese el nombre del archivo: ");
-        scanf("%s", nombreArchivo);
-        fflush(stdin);
-        num_contacto = cargarContactos(contacto, nombreArchivo);
-        printf("Contactos cargados desde el archivo '%s'.\n", nombreArchivo);
-    }
     do
     {
         printf("MENU: \n");
@@ -62,11 +51,11 @@ int main() {
 
                 ingresarContacto(num_contacto,contacto);
 
-                printf("Contacto agregado con exito.\n");
+                printf("Contacto agregado con exito.\n\n");
                 contacto[num_contacto].id = num_contacto;
                 num_contacto++;
             } else {
-                printf("La agenda está llena.\n");
+                printf("La agenda está llena.\n\n");
             }
             
             break;
@@ -80,11 +69,11 @@ int main() {
             id_encontrado = buscarID(buscar_nombre,contacto);
     
             if (id_encontrado != 200){
-                printf("Contacto encontrado: \n");
+                printf("Contacto encontrado: \n\n");
                 informacionContacto(id_encontrado, contacto);
                 printf("ID:%d \n",id_encontrado);
             } else if (id_encontrado == 200) {
-                printf("Contacto NO encontrado. \n");
+                printf("Contacto NO encontrado. \n\n");
             }
             
             break;
@@ -98,11 +87,11 @@ int main() {
             id_encontrado = buscarID(buscar_nombre,contacto);
     
             if (id_encontrado != 200){
-                printf("Contacto encontrado: \n");
+                printf("Contacto encontrado: \n\n");
                 informacionContacto(id_encontrado, contacto);
                 printf("ID:%d \n",id_encontrado);
             } else if (id_encontrado == 200) {
-                printf("Contacto NO encontrado. \n");
+                printf("Contacto NO encontrado. \n\n");
             }
             break;
 
@@ -116,9 +105,9 @@ int main() {
     
             if (id_encontrado != 200){
                 eliminarContacto(id_encontrado, contacto);
-                printf("Contacto elimanado con exito. \n");
+                printf("Contacto elimanado con exito. \n\n");
             } else if (id_encontrado == 200) {
-                printf("Contacto NO encontrado. \n");
+                printf("Contacto NO encontrado. \n\n");
             }
             break;
             
@@ -126,9 +115,9 @@ int main() {
             printf("5. Guardar contacto  \n");
             if(num_contacto != 0){
                 guardarContacto(num_contacto,contacto);
-                printf("Contactos guardados con exito. \n");
+                printf("Contactos guardados con exito. \n\n");
             } else {
-                printf("No se a registrado ningun contacto. \n");
+                printf("No se a registrado ningun contacto. \n\n");
             }
             break;
         case 6:
@@ -145,7 +134,7 @@ int main() {
             break;
             
         default: 
-            printf("Opcion no valida. \n");
+            printf("Opcion no valida. \n\n");
         }
 
     } while (op != 0);
@@ -199,13 +188,14 @@ void informacionContacto(int id_encontrado, struct agenda contacto[100]){
 
 // Función para "eliminar" un contacto.
 void eliminarContacto(int id_encontrado, struct agenda contacto[100]){
-    contacto[id_encontrado].nombre[0] = '\0';
-    contacto[id_encontrado].nombre[1] = '\0';
-    contacto[id_encontrado].telefono[15] = '\0';
-    contacto[id_encontrado].email[50] = '\0';
-    contacto[id_encontrado].id = 200;
+     for(int i=0; i<50; i++){
+        contacto[id_encontrado].nombre[i] = contacto[id_encontrado +1].nombre[i];
+        contacto[id_encontrado].telefono[i] = contacto[id_encontrado +1].telefono[i];  
+        contacto[id_encontrado].email[i] = contacto[id_encontrado +1].email[i];
+    }   
 }
 
+// Función para guardar los contactos desde un archivo.
 int guardarContacto(int num_contacto, struct agenda contacto[100]){
     FILE *archivo;
     archivo = fopen("contactos.txt", "w");
