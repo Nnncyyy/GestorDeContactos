@@ -61,18 +61,18 @@ Caso de uso:
 <br><img src="./capturas/4.png" alt="Agregar primer contacto" width="300" /><br> 
 
 10. Los contastos se guardan en un archivo de texto. <br>
-<br> <img src="./capturas/5.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/5.png" alt="Agregar primer contacto" width="300" /><br>
 
 11. El menú se muestra nuevamente y el usuario selecciona la opción 2 (Mostrar contacto). <br>
-<br> <img src="./capturas/6.png" alt="Agregar primer contacto" width="300" /><br>
+<br><img src="./capturas/6.png" alt="Agregar primer contacto" width="300" /><br>
 
-12. Se ejecuta la opción 3 (Buscar contactos).<br>
+12. Se ejecuta la opción 3 (Buscar contactos).
 13. El menú aparece nuevamente y el usuario selecciona la opción 4 (Eliminar contacto). <br>
-14. Se confirma la eliminación del contacto. <br>
+14. Se confirma la eliminación del contacto. 
 <img src="./capturas/7.png" alt="Agregar primer contacto" width="300" /><br>
 
-15. Para veficicar la elimicaión del contacto se ejecuta la opción 3 (Buscar contacto). <br>
-16. El programa no encontró al contacto, es decir, el contacto fue eliminado exitosamente. <br>
+15. Para veficicar la elimicaión del contacto se ejecuta la opción 3 (Buscar contacto).
+16. El programa no encontró al contacto, es decir, el contacto fue eliminado exitosamente. 
 <img src="./capturas/8.png" alt="Agregar primer contacto" width="300" /><br>
 
 17. El usuario seleciona la opción 6 (Cargar contactos desde un archivo).<br>
