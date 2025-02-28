@@ -143,7 +143,7 @@ int main() {
 }
 
 // Definición de funciones.
-// Función que solicita la infomación de un nuevo contacto.Se solicita al usuario ingresar un número de teléfono y un correo electrónico para almacenarlos en la estructura
+// Función que solicita la infomación de un nuevo contacto.Se solicita al usuario ingresar un número de teléfono y un correo electrónico para almacenarlos en la estructura.
 void ingresarContacto(int num_contacto, struct agenda contacto[100]){
     printf("Nombre: \n");
     scanf("%[^\n]",contacto[num_contacto].nombre);
@@ -186,7 +186,7 @@ void informacionContacto(int id_encontrado, struct agenda contacto[100]){
     printf("Email: %s \n",contacto[id_encontrado].email);
 }
 
-// Función para "eliminar" un contacto.
+// Función para "eliminar" un contacto.La función elimina un contacto en un arreglo de estructuras.
 void eliminarContacto(int id_encontrado, struct agenda contacto[100]){
     
     for(int i=0; i<50; i++){
