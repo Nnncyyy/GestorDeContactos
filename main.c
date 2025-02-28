@@ -143,7 +143,7 @@ int main() {
 }
 
 // Definición de funciones.
-// Función que solicita la infomación de un nuevo contacto.
+// Función que solicita la infomación de un nuevo contacto.Se solicita al usuario ingresar un número de teléfono y un correo electrónico para almacenarlos en la estructura
 void ingresarContacto(int num_contacto, struct agenda contacto[100]){
     printf("Nombre: \n");
     scanf("%[^\n]",contacto[num_contacto].nombre);
